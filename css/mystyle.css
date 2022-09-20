@@ -1,0 +1,65 @@
+@font-face {
+  font-family: bebasneue;
+  src: url("../font/BebasNeue-Regular.ttf");
+}
+.navbar-brand {
+  font-family: bebasneue;
+  font-size: 25px !important;
+  font-weight: bold;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 2s linear infinite forwards;
+}
+.container a:hover {
+  color: white;
+}
+.navbar-nav a {
+  font-weight: bolder;
+}
+.dropdown-menu li a:hover {
+  background: none;
+  color: white !important;
+}
+.jumbotron {
+  background-image: url(../img/Bg.jpg);
+}
+.jumbo {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.about {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.123), rgba(253, 253, 253, 0.158));
+}
+#project {
+  background-color: black;
+}
+#certificate {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255), rgba(238, 238, 238, 0.945));
+}
+#project .h2,
+#certificate .h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+#contact .h2 {
+  font-weight: bold;
+}
+footer .container .display-6,
+footer .container h5 {
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+@keyframes slide {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 600vw;
+  }
+}
